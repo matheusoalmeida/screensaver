@@ -1,0 +1,39 @@
+body {
+
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+}
+
+.clock {
+    position: absolute; /* Usa o posicionamento absoluto */
+    top: 70%;           /* Coloca no meio da tela em relação à altura */
+    left: 50%;          /* Coloca no meio da tela em relação à largura */
+    transform: translate(-50%, -50%); /* Ajusta para que o centro do elemento esteja no meio da tela */
+      
+}
+
+img {
+    position: absolute; /* Usa o posicionamento absoluto */
+    top: 25%;           /* Coloca no meio da tela em relação à altura */
+    left: 50%;          /* Coloca no meio da tela em relação à largura */
+    transform: translate(-50%, -50%); /* Ajusta para que o centro do elemento esteja no meio da tela */
+    height: 400px;
+    width: 400px;
+}
+
+
+.time {
+    color: white;
+    font-family:'DS-Digital', sans-serif;
+    font-size: 15rem;
+    text-align: center;
+}
+
+.date {
+    margin-top: 10px;
+    color: white;
+    font-family:'DS-Digital', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+}
